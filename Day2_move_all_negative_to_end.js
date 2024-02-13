@@ -8,7 +8,7 @@ const moveNegativeToEnd=(arr)=>{
        }
    }
    if (counter===n || counter===0){
-       return;
+       return arr;
    }
     for(let i=0;i<n;i++){
         if(arr[i]<0){
@@ -21,4 +21,4 @@ const moveNegativeToEnd=(arr)=>{
 
    return arr;
 }
-console.log(moveNegativeToEnd([1, -1, 3, 2, -7, -5, 11, 6 ]))
+console.log(moveNegativeToEnd([1, 1, 3, 2, 7, 5, 11, 6 ]))
